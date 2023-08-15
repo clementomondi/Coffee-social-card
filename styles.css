@@ -1,0 +1,427 @@
+/* Add CSS here */
+.body-container {
+    font-family: 'poppins', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1514856841774-b927b221d7c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fHN0b3JtJTIwd2F2ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    max-width: 370px;
+    height: 548px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.card-1 {
+    height: 200px;
+    width: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1KK1jO0rSwTt_XzpqeEphDDve_XAMp7xjw&usqp=CAU');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-1 h1 {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.card-1 p {
+    color: white;
+    font-size: 14px;
+}
+
+.container-1 {
+    position: relative;
+}
+
+.card-2 {
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    height: 95px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.1s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn h3 {
+    font-size: 17px;
+    font-weight: 800;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    margin-top: -32px;
+    padding: 10px;
+    height: 170px;
+    border-width: 2px;
+    border-radius: 0.2em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closet-1 {
+    width: 100px;
+    height: 35px;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    transition: transform 0.1s ease;
+}
+
+.closet-1:hover {
+    transform: scale(0.8);
+}
+
+.closet-1 h2 {
+    font-size: 10px;
+    font-weight: 800;
+    color: red;
+}
+
+.closet-3 {
+    width: 100px;
+    height: 35px;
+    border-width: 2px;
+    border-color: red;
+    border-radius: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    transition: transform 0.1s ease;
+}
+
+.closet-3:hover {
+    transform: scale(0.8);
+}
+
+.closet-3 h2 {
+    font-size: 10px;
+    font-weight: 800;
+    color: red;
+}
+
+.closet h4 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.closet h5 {
+    font-size: 13px;
+}
+
+.closet-4 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.closet-4 h4 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.closet-4 h5 {
+    font-size: 13px;
+}
+
+.icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.icon-1 h6 {
+    font-size: 14px;
+}
+
+.icon-1 {
+    display: flex;
+    gap: 5px;
+}
+
+.closet-2 {
+    width: 100px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj9Yaru8cwjoIrYQqe_Bjauj89u1cJJiqkQ&usqp=CAU');
+    height: 100px;
+    background-size: cover;
+    border-radius: 40em;
+    margin-top: -50px;
+    display: flex;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.cyclone {
+    width: 50%;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -120px;
+    transform: rotate(40deg);
+}
+
+.cyclone h7 {
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .body-container {
+        font-family: 'poppins', sans-serif;
+        background-image: url('https://images.unsplash.com/photo-1514856841774-b927b221d7c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fHN0b3JtJTIwd2F2ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60');
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container {
+        width: 100%;
+        height: 548px;
+        background-color: transparent;
+        overflow: hidden;
+    }
+
+    .card-1 {
+        height: 200px;
+        width: 100%;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ1KK1jO0rSwTt_XzpqeEphDDve_XAMp7xjw&usqp=CAU');
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-1 h1 {
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .card-1 p {
+        color: white;
+        font-size: 14px;
+    }
+
+    .container-1 {
+        position: relative;
+    }
+
+    .card-2 {
+        height: 250px;
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        height: 95px;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.1s ease;
+    }
+
+    .btn:hover {
+        transform: scale(1.1);
+    }
+
+    .btn h3 {
+        font-size: 17px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .content {
+        width: 100%;
+        margin-top: -32px;
+        padding: 10px;
+        height: 170px;
+        border-width: 2px;
+        border-radius: 0.2em;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .closet-1 {
+        width: 100px;
+        height: 35px;
+        border-width: 2px;
+        border-color: red;
+        border-radius: 0.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        transition: transform 0.1s ease;
+    }
+
+    .closet-1:hover {
+        transform: scale(0.8);
+    }
+
+    .closet-1 h2 {
+        font-size: 10px;
+        font-weight: 800;
+        color: red;
+    }
+
+    .closet-3 {
+        width: 100px;
+        height: 35px;
+        border-width: 2px;
+        border-color: red;
+        border-radius: 0.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        transition: transform 0.1s ease;
+    }
+
+    .closet-3:hover {
+        transform: scale(0.8);
+    }
+
+    .closet-3 h2 {
+        font-size: 10px;
+        font-weight: 800;
+        color: red;
+    }
+
+    .closet h4 {
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .closet h5 {
+        font-size: 13px;
+    }
+
+    .closet-4 {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .closet-4 h4 {
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .closet-4 h5 {
+        font-size: 13px;
+    }
+
+    .icons {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .icon-1 h6 {
+        font-size: 14px;
+    }
+
+    .icon-1 {
+        display: flex;
+        gap: 5px;
+    }
+
+    .closet-2 {
+        width: 100px;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj9Yaru8cwjoIrYQqe_Bjauj89u1cJJiqkQ&usqp=CAU');
+        height: 100px;
+        background-size: cover;
+        border-radius: 40em;
+        margin-top: -50px;
+        display: flex;
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .cyclone {
+        width: 50%;
+        height: 25px;
+        background-color: red;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -120px;
+        transform: rotate(40deg);
+    }
+
+    .cyclone h7 {
+        font-size: 16px;
+        font-weight: 800;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+}
